@@ -225,7 +225,7 @@ void Aftr::GLViewTerrainModule::loadMap()
    Axes::isVisible = true;
    this->glRenderer->isUsingShadowMapping( false ); //set to TRUE to enable shadow mapping, must be using GL 3.2+
 
-   this->cam->setPosition( 15,15,10 );
+   this->cam->setPosition(1, 5, 120);
 
    std::string shinyRedPlasticCube( ManagerEnvironmentConfiguration::getSMM() + "/models/cube4x4x4redShinyPlastic_pp.wrl" );
    std::string wheeledCar( ManagerEnvironmentConfiguration::getSMM() + "/models/rcx_treads.wrl" );
